@@ -5,7 +5,7 @@ const { Country } = require("../db");
 
 const Api_A_DB = async () => {
   try {
-    await new Promise(resolve => setTimeout(resolve, 2000)); 
+    await new Promise(resolve => setTimeout(resolve, 3000)); 
     const { data } = await axios.get("http://localhost:5000/countries");
 
     const createCountryDB = data.map(countryData => {
