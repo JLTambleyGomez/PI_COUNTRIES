@@ -4,7 +4,7 @@ const { DataTypes } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
 
-require("dotenv").config({ path: path.resolve(__dirname, "./.env") }); // para recibir las constantes de .env
+require("dotenv").config(); // para recibir las constantes de .env
 const { DB_USER, DB_PASSWORD, DB_DEPLOY } = process.env;
 
 
