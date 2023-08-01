@@ -1,5 +1,5 @@
 const { Router } = require("express");
-// const {Api_A_DB ,verificarPaisesEnDB} = require("../controladores/data_a_DB");
+const {Api_A_DB ,verificarPaisesEnDB} = require("../controladores/data_a_DB");
 const  GET_CONTRIES = require("../controladores/Get_Contries");
 const GET_CONTRIES_BY_ID = require("../controladores/GET_CONTRIES_BY_ID");
 const GET_CONTRIES_BY_NAME = require("../controladores/GET_CONTRIES_BY_NAME");
